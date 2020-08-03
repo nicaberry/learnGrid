@@ -1,0 +1,65 @@
+:root {
+    --color-for-bg-font: rgb(246, 235, 235);
+}
+
+.header,
+.main,
+.aside,
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header,
+.main,
+.aside,
+.footer,
+.container-grid {
+    color: var(--color-for-bg-font);
+    background-color: var(--color-for-bg-font);
+}
+
+.header {
+    background-color: rgb(101, 43, 194);
+}
+
+.main {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+
+    background-color: rgb(179, 194, 43);
+}
+
+.aside {
+    background-color: rgb(194, 43, 169);
+}
+
+.footer {
+    background-color: rgb(43, 83, 194);
+}
+
+.false-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(43, 139, 194);
+}
+
+.false-img_big {
+    background-color: rgb(43, 194, 161);
+}
+
+.false-img_height {
+    background-color: rgb(43, 66, 194);
+}
+
+.false-img_wide {
+    background-color: rgb(78, 43, 194);
+}
